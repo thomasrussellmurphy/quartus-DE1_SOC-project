@@ -35,13 +35,8 @@ def main(argv):
 
     # Files that need only name modification:
     shutil.copyfile(
-        here + '/' + de0_ + '.sdc',
+        here + '/' + de1_ + '.sdc',
         target + '/' + desired_name + '.sdc')
-
-    # Files that need no modification:
-    shutil.copyfile(
-        here + '/' + 'assignment_defaults.qdf',
-        target + '/' + 'assignment_defaults.qdf')
 
     # Files that need modification: .qpf, .qsf, .v
 
